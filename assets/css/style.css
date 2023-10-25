@@ -1,0 +1,61 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+
+a{
+text-decoration: none;
+}
+.clearfix{
+    clear: both;
+}
+ul{
+list-style-type: none;
+}
+
+/*---------- NavBar -----------*/
+.navbar{
+   background-color: black; 
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+.logo{
+    float:left; 
+    margin-top: 5px;  
+}
+.logo img{
+    width:50%;
+}
+.navbar .list{
+    float:right;   
+    margin-top: 5px; 
+}
+.list li{
+    float: left;
+    margin-right: 20px;
+}
+.list a{
+    color: white;
+    text-transform: uppercase;
+}
+/*------------- Header ---------------*/
+.portfolio{
+    text-align: center;
+    margin-top: 50px;
+}
+.portfolio p{
+    margin-bottom: 30px;
+}
+.portfolio-item{
+    float: left;
+    width: 33.33%;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+.portfolio img{
+    display: block;
+    width: 100%;
+}
